@@ -1,5 +1,5 @@
 data class BankAccount (
-        val bankAccountId: String,
-        val customerId: String,
-        var balance: Number
+        val bankAccountId: Int,
+        val customerId: Int,
+        var balance: Double
 )

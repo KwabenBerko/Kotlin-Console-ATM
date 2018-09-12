@@ -1,6 +1,6 @@
 data class BankCard(
-        val cardId: String,
-        val customerId: String,
+        val cardId: Int,
+        val customerId: Int,
         val number: String,
         val pin: Number
 )

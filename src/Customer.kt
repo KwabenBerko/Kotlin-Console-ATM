@@ -1,5 +1,5 @@
 data class Customer(
-        val customerId: Number,
+        val customerId: Int,
         val firstName: String,
         val lastName: String
 )

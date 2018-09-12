@@ -8,6 +8,8 @@ class CustomerRepository{
     )
 
     fun findById(customerId: Number): Customer{
-        //Test this at home!
+        return CUSTOMERS.filter {
+            it.customerId == customerId
+        }[0]
     }
 }
