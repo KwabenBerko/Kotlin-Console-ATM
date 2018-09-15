@@ -1,6 +1,7 @@
+import models.BankAccount
 import org.junit.Test
 
-import org.junit.Assert.*
+import repositories.BankAccountRepository
 
 class BankAccountRepositoryTest {
 

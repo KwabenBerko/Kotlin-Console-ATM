@@ -1,3 +1,7 @@
+package repositories
+
+import models.BankAccount
+
 class BankAccountRepository (){
 
     private var BANK_ACCOUNTS = mutableListOf(
@@ -7,7 +11,7 @@ class BankAccountRepository (){
             BankAccount(4, 4, 17000.0)
     )
 
-    fun findByCustomerId(customerId: Number): BankAccount{
+    fun findByCustomerId(customerId: Number): BankAccount {
         return BANK_ACCOUNTS.filter {
             it.customerId == customerId
         }[0]

@@ -1,3 +1,7 @@
+package repositories
+
+import models.Customer
+
 class CustomerRepository{
 
     private val CUSTOMERS = arrayListOf(
@@ -7,7 +11,7 @@ class CustomerRepository{
             Customer(4, "Samuel", "Mensah")
     )
 
-    fun findById(customerId: Number): Customer{
+    fun findById(customerId: Number): Customer {
         return CUSTOMERS.filter {
             it.customerId == customerId
         }[0]

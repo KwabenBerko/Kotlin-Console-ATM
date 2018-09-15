@@ -1,3 +1,8 @@
+package models
+
+import repositories.BankAccountRepository
+import repositories.BankCardRepository
+import repositories.CustomerRepository
 
 class Atm {
     private lateinit var bankCard: BankCard

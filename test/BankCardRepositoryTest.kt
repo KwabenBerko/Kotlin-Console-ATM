@@ -1,4 +1,6 @@
+import models.BankCard
 import org.junit.Test
+import repositories.BankCardRepository
 
 class BankCardRepositoryTest{
     @Test

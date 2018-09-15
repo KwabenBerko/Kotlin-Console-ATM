@@ -1,3 +1,7 @@
+package repositories
+
+import models.BankCard
+
 class BankCardRepository {
 
     private val BANK_CARDS = arrayListOf(
@@ -7,7 +11,7 @@ class BankCardRepository {
             BankCard(4, 4, "3401255", 4567)
     )
 
-    fun findByCardNumber(number: String): BankCard{
+    fun findByCardNumber(number: String): BankCard {
         return BANK_CARDS.filter {
             it.number == number
         }[0]

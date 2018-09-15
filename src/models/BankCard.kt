@@ -1,3 +1,5 @@
+package models
+
 data class BankCard(
         val cardId: Int,
         val customerId: Int,
